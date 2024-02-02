@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <img src="assets/logofinalfinal.png" class="logo">
+
+    </nav>
+
+
+
+    <style>
+        body  {
+            background-image: url("assets/dashboard-page.png");
+            background-color: #cccccc;
+        }
+    </style>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Empowering Venture Capital. <br />
+                    Join our waitlist below
+                     </h2>
+                <hr>
+            </div><!-- enter your access key in below input tag value=" "--> 
+            <input type="hidden" name="access_key" value="fc540ece-9be2-492c-a07d-7b0524ddda54"> 
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit <img src="assets/arrow_icon.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="assets/final.png" alt="" width="1024px" height="automatic">
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
